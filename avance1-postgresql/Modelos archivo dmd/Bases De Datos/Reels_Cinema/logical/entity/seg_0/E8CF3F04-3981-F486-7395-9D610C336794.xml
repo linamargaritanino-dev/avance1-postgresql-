@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8CF3F04-3981-F486-7395-9D610C336794" name="tipo boleta">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>B8832945-ECD7-8FCE-D73B-EB377DBB9B09</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tipo boleta" id="33189841-4D5A-772A-B89E-BF5AA04B6391">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>8CFC2269-669A-5A77-02FB-84213D9EB5CD</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="041A0AF2-14A6-A0AC-383F-447807C58C22">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>9DECB796-B398-4C36-0526-DABF85B41A8F</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8C45EC71-AC2F-3F7F-543D-8FC1BA20A71D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="31BE7E37-6F7A-5D57-A355-D370CC0667BB">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>9EF87E44-0ADA-92D5-BBFA-5EA04F923064</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6B976DB0-78E2-1218-42B1-6B6E801077FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="47B5A33F-2591-4ACF-89A0-AD57CB1392A7">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>BD183823-E8BC-F58B-5737-96696D59E4C8</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6B848A65-3FB4-682A-1394-A5257223B246</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56CEFF45-4A49-BD1A-B303-7F7C53E1D9AF" name="tipo boleta PK">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>9F6F8503-6EDE-5A24-6011-D2AED67E19A4</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33189841-4D5A-772A-B89E-BF5AA04B6391</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B48EAFC2-8439-DA9B-379B-70FEE44CA08F" name="INDEX 1v1">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>EF9D5202-993F-5627-78A9-39632240F083</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>041A0AF2-14A6-A0AC-383F-447807C58C22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

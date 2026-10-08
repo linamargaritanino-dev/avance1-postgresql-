@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8832945-ECD7-8FCE-D73B-EB377DBB9B09" name="tipo_boleta">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>1B4A4450-460F-F61B-EB00-6717BCFBFDDC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_boleta" id="8CFC2269-669A-5A77-02FB-84213D9EB5CD">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>FD002F78-4CF8-6E8F-3734-7486D6E91215</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="9DECB796-B398-4C36-0526-DABF85B41A8F">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>56A2B837-FA0A-9764-0709-A8C2A62254C5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8C45EC71-AC2F-3F7F-543D-8FC1BA20A71D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="9EF87E44-0ADA-92D5-BBFA-5EA04F923064">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>DF7DB0E6-DFE6-DB03-9883-88BE5F82E34D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6B976DB0-78E2-1218-42B1-6B6E801077FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="BD183823-E8BC-F58B-5737-96696D59E4C8">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>5459E28B-AEB1-7352-C0A8-02298395E400</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6B848A65-3FB4-682A-1394-A5257223B246</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F6F8503-6EDE-5A24-6011-D2AED67E19A4" name="tipo_boleta_PK">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>E1E6F4C3-E565-CD80-399A-92078E3C9C78</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CFC2269-669A-5A77-02FB-84213D9EB5CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF9D5202-993F-5627-78A9-39632240F083" name="INDEX_1v1">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>FAE00976-C787-9A68-B6C9-BDD8DD2B182D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DECB796-B398-4C36-0526-DABF85B41A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_tipo_boleta_categoria" directorySegmentName="seg_0" id="FAAFE041-ADD1-5E43-0924-3A6311EC8C6A">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>0E1B073E-05F3-5136-E235-1B382019FBED</importedID>
+<rule><![CDATA[TRIM(categoria) IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_tipo_boleta_descripcion" directorySegmentName="seg_0" id="39CD33EF-DBC8-CD49-AC88-209256A08E8A">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>B4E885D1-6D20-4E4E-5B5D-ADFB204BBB8E</importedID>
+<rule><![CDATA[TRIM(descripcion) IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_tipo_boleta_precio" directorySegmentName="seg_0" id="AE2DC82D-8139-AD81-0606-9B65DA9FCBBD">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>9256AF57-4C16-932C-492A-F427FC6B8E6F</importedID>
+<rule><![CDATA[precio > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

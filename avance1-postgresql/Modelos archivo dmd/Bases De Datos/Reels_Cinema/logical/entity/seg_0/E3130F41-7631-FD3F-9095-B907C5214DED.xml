@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3130F41-7631-FD3F-9095-B907C5214DED" name="staff">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>1EB7FEA3-25A8-DD3A-240B-54CB4E9A9DAA</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id staff" id="3FEC68B1-F299-27DE-56A1-2142ACE0EAD4">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>C59D691A-65FB-F5C4-DCC9-7A1D279E7CAE</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre completo" id="85242125-9188-70D9-0C31-C5DCE0C47B5A">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>27CF8FA0-1B45-B8E3-DAD5-E5DA6769CC22</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7A79666C-06D3-3350-E963-2DA3CD7983CB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo documento" id="A77CF441-8316-F8D6-6EE9-55FF90EECA86">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>98D35ED4-86CD-4514-C37B-5E1670DF67FD</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7222EDD1-4191-C936-67E7-E5F891CDCA3F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento" id="C28736C4-DC76-FCAF-818E-6F0463736074">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>3C906AB5-9ABA-E056-24A2-70DFBA4E4CB9</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>769CA31C-E33F-7E14-2235-0FB1412B94B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo" id="0A2FA068-1EC8-7288-A464-37837741A6A7">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>87DA30A9-F7D9-0E2D-120C-AE425E0BBB26</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>769CA31C-E33F-7E14-2235-0FB1412B94B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="833AA7DB-E3AF-5C2B-5E8F-4CE45AF76532">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>A025CDA0-91DD-7C07-2D8B-0C341DB39180</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3B267CCC-B764-5BA9-984F-8214D3B7E351</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="237F653E-CBDF-E90A-5E03-7187FBE08AD3">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>EC8BB358-A3F7-C74D-9BC7-BA23833CF08D</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E8E1FC32-6054-6CD4-BCB4-D30AE983B7F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha ingreso" id="26C739B2-B686-278F-C765-088A32F8A12A">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>068C34E6-8116-DBA6-820C-57BBCEA9C865</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>582938F0-FD4C-3532-B4CE-F1CDB38A5E7C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="0A5240A4-383E-8F3F-033D-B87114DF1B9A">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>7985F1AD-3835-48D0-91B7-5DA0C9A6B4F3</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EB493D1-DE7D-D561-E7A2-E9676F557406</domain>
+<defaultValue>&apos;activo&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="373392E0-CDAD-9DD2-31D3-AFED59A5CD9B" name="staff PK">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>5C93DB1C-57B1-D150-4FB1-A8F28B5C9867</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FEC68B1-F299-27DE-56A1-2142ACE0EAD4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="CC140E43-5BEE-4028-CEEE-33ED192009DF" name="uq staff documento">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>0FC651B5-23DC-0C60-FAE8-05444948B39D</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>A77CF441-8316-F8D6-6EE9-55FF90EECA86</attributeRef>
+<attributeRef>C28736C4-DC76-FCAF-818E-6F0463736074</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

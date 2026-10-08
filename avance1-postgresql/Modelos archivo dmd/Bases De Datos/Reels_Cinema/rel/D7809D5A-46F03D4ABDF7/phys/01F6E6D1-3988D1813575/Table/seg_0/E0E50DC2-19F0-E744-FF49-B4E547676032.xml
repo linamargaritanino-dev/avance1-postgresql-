@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="sala" directorySegmentName="seg_0" id="E0E50DC2-19F0-E744-FF49-B4E547676032">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="capacidad" id="10E0C7F3-EB52-D83E-4D7D-1B66B3FAA89F">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estado" id="38261078-E42A-DDFC-60EF-FCBF0E5C0DA6">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<defaultValue>&apos;disponible&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="id_sala" id="5EEDEBEF-1AAC-560D-699F-C89F5E249E3F">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero_sala" id="C93D30CE-5959-EEA8-809E-AA0D44EF2EB4">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="sala_PK" id="60522280-7D75-76EC-AC04-874EEB484F98">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="ck_sala_capacidad" id="059CEC6F-F904-487D-97AB-1897AAAEDC4A">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_sala_numero" id="3B148B46-DDB2-F9C2-24B0-06C159F46AE9">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_sala_estado" id="5F330C3B-F8EB-DAA8-640F-DFDA49D7F84C">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="6E2697F4-3484-941F-8E16-F59149CEEDC4">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

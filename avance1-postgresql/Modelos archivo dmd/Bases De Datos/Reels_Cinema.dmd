@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Reels_Cinema" id="44A6BB9B-E1F0-B8A6-0A49-7F5D0AD0BEE7" version="3.5">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 17:52:40 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>44A6BB9B-E1F0-B8A6-0A49-7F5D0AD0BEE7</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="57454829-5470-E743-6FE3-4661367E0386">
+<designStoragePath>C:\reels_cinema_datamodeler</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

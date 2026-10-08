@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42C0AEF9-5385-F3D3-3BCA-BA61FDAB87E6" name="pelicula">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>9112280F-6F3D-5D79-FF95-D1BD649A8EA9</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pelicula" id="06743032-CDCD-3879-B66C-4EBAA280129C">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>F4C5A790-EC4C-ECCC-3E1F-EFA0B46AFDF7</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="754E2F72-3730-25BE-7D8E-B62FF77E3E33">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>24C29DC7-9AD6-FB70-F04B-42C234A4D21C</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>47192F8B-4847-B196-13B5-9EECFDAC3066</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="8367B8CD-5A5B-4228-D90A-1162E86D9235">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>D50E2CCA-818A-F126-1F60-CB5B21711150</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="EA04C9C7-FC46-C654-119E-1ED2C1FF82EC">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>C3AD6E20-BEBA-27CF-BDD6-838FB87A9B68</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8C45EC71-AC2F-3F7F-543D-8FC1BA20A71D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clasificacion edad" id="07454C64-E164-4B21-E219-7882539F4F98">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>3AED04C2-379C-5273-3B7C-1F7E518B1651</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>769CA31C-E33F-7E14-2235-0FB1412B94B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idioma original" id="AF440020-A734-1351-FFAD-206BE9014ABE">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>64AC5DA6-C1A6-4EC1-D40F-8D68E37F57D1</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8C45EC71-AC2F-3F7F-543D-8FC1BA20A71D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha estreno" id="6918C066-BA35-013C-FF20-E87D313DDDD1">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>37177F07-02D3-6865-8FEC-CDA6F8067D64</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>582938F0-FD4C-3532-B4CE-F1CDB38A5E7C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9BFC86C-CB25-C3FB-9FE5-C6AEB003DA20" name="pelicula PK">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>A4EC8F98-AD2C-5E56-AB56-07DA634A27FF</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06743032-CDCD-3879-B66C-4EBAA280129C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

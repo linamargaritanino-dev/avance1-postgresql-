@@ -1,0 +1,280 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDFF5126-A8E5-7124-3B03-C2A18E38309B" name="venta">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>89A9EDD0-BBA6-871F-C24D-7E238ED57EBB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_venta" id="21FAF230-8B4F-1528-8778-0016FB7F39A0">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>E8B032AF-794D-4CC9-BDEB-1BF91485FDAB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="espectador_id_espectador" id="EEE8C598-A48B-0EB1-7941-F155ECD92CD1">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>E18668A8-C2FB-83E4-77EC-0C558AFD4FA1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2905C48-7FA4-EFB5-8E06-12D2BF5BECD7" referredColumn="645FFAEA-D39A-44C0-C54E-93DDE59B53F6"/>
+</associations>
+</Column>
+<Column name="funcion_id_funcion" id="23D3B94F-A594-F416-6F70-F209C617837B">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>BFDCFC22-EC07-C6AE-9948-97D3538767C6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3EEF156-8EFD-225A-15FE-274B21D71169" referredColumn="9289BD91-3000-154B-7662-B83BC8A09504"/>
+</associations>
+</Column>
+<Column name="tipo_boleta_id_tipo_boleta" id="EAA4D258-A9F7-4DA7-30C6-C90BF25ABAF5">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>2C62ECA6-F980-F36F-E853-5A714C8C7D10</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E501C933-FB13-3E85-4A91-CA968A109ADC" referredColumn="8CFC2269-669A-5A77-02FB-84213D9EB5CD"/>
+</associations>
+</Column>
+<Column name="staff_id_staff" id="2FA07BC8-E7FF-43A1-836F-1E671B1A30D6">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>9D076585-4E07-D5FB-F50B-BC5D1E65875E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18903754-B516-7695-E21E-6274057B89AA" referredColumn="C59D691A-65FB-F5C4-DCC9-7A1D279E7CAE"/>
+</associations>
+</Column>
+<Column name="fecha_hora_venta" id="B66EB275-5845-D690-EBC2-AD628CBDC453">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>05DA68C4-AF53-6900-FB7D-35E2335B8B39</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>8C0F85F7-C049-EAD2-A962-6435B80B6C0A</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_boletas" id="775CF7BA-7B4C-BCD5-CB20-6C44C0FAB821">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>E8EE6AC8-CB5F-D243-F364-99579C0A3CCF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="76788E9C-7E04-1469-EE3D-06BA83556E74">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>2AAB7461-6923-22EC-BE6B-A131EC77795E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6B848A65-3FB4-682A-1394-A5257223B246</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="0C4FE39E-6C27-E34D-DE8A-0E83B608B546">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>D696B253-F394-8822-9023-3921A8F6790C</importedID>
+<formulaDesc>cantidad_boletas * precio_unitario</formulaDesc>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6471E704-8535-BDBE-123A-F31DD65D7D6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<computed>true</computed>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metodo_pago" id="4A410632-6231-215B-4519-711B1474E89B">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>F547F89D-8404-8C71-505B-A03E6EE1E5BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7222EDD1-4191-C936-67E7-E5F891CDCA3F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="canal_venta" id="D441DE95-2920-9A70-2FC0-BD2498FDD09A">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>A4927FDC-8576-3E0E-B071-E7FE4C192BFE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EB493D1-DE7D-D561-E7A2-E9676F557406</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="CA52F1E6-7B7A-965D-2741-5DA0139F8115">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>01C80187-D48B-6416-6F61-57E49C702DC3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EB493D1-DE7D-D561-E7A2-E9676F557406</domain>
+<defaultValue>&apos;pendiente&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C7F4BAD-0822-C81C-343F-288A306C72B0" name="venta_PK">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>21F95860-01A4-E573-18B4-FA1EC2C8BD26</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21FAF230-8B4F-1528-8778-0016FB7F39A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5B3C98C-6E25-D08A-52D4-FA81119C4445" name="fk_venta_espectador">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEE8C598-A48B-0EB1-7941-F155ECD92CD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="180EB5A7-39C3-E51A-7A16-43EF29B70ED6" name="fk_venta_funcion">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23D3B94F-A594-F416-6F70-F209C617837B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="951B1A22-6632-F5F4-31EA-ADCE944355F4" name="fk_venta_staff">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FA07BC8-E7FF-43A1-836F-1E671B1A30D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B91F2696-2427-C6FA-12FE-83AC754E70A6" name="fk_venta_tipo_boleta">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAA4D258-A9F7-4DA7-30C6-C90BF25ABAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_venta_cantidad" directorySegmentName="seg_0" id="37AA1190-EAED-14B2-CDE8-D728464822EA">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>B9CDED58-E9F4-F839-9448-76EBACD0948E</importedID>
+<rule><![CDATA[cantidad_boletas > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_venta_precio" directorySegmentName="seg_0" id="77F803D4-33EE-2906-AF40-F787F4AF5131">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>F13E4D83-81AA-13B0-53CD-2991421E0A21</importedID>
+<rule><![CDATA[precio_unitario > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_venta_metodo" directorySegmentName="seg_0" id="9654A5FD-185E-46C4-B495-7DBDE94A6488">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>01549888-727E-BAB5-BD8D-A16B7D8D6498</importedID>
+<rule><![CDATA[metodo_pago IN ('efectivo', 'tarjeta', 'transferencia')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_venta_canal" directorySegmentName="seg_0" id="8227F12B-9BAB-C6A5-DD95-6E42FCF30896">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>4921DFFB-48CA-7A8C-8703-3D371BE68454</importedID>
+<rule><![CDATA[canal_venta IN ('taquilla', 'en_linea')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_venta_estado" directorySegmentName="seg_0" id="608C763E-9D8A-A87D-F49D-EAB2C4DECF37">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>86E34875-573B-724C-A677-85BF82D88418</importedID>
+<rule><![CDATA[estado IN ('pendiente', 'pagada', 'cancelada')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_venta_staff_taquilla" directorySegmentName="seg_0" id="CD413EF8-D21D-0877-0B2F-7432A5758BDB">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>07D5274A-E1BB-A5F2-6876-1DEB0E57B4EA</importedID>
+<rule><![CDATA[canal_venta <> 'taquilla' OR staff_id_staff IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="reels_cinema_datamodeler_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="0EB493D1-DE7D-D561-E7A2-E9676F557406">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>15</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="36726F61-DFCD-D679-68FD-068723857A6C">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_254" id="3B267CCC-B764-5BA9-984F-8214D3B7E351">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>254</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60" id="42E62030-5A0B-B4E9-46EA-B9D4379E9EA5">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>60</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="47192F8B-4847-B196-13B5-9EECFDAC3066">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="582938F0-FD4C-3532-B4CE-F1CDB38A5E7C">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_14_2_0" id="6471E704-8535-BDBE-123A-F31DD65D7D6C">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_12_2_0" id="6B848A65-3FB4-682A-1394-A5257223B246">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000" id="6B976DB0-78E2-1218-42B1-6B6E801077FE">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>4000</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="7222EDD1-4191-C936-67E7-E5F891CDCA3F">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30" id="769CA31C-E33F-7E14-2235-0FB1412B94B9">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="7A79666C-06D3-3350-E963-2DA3CD7983CB">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="TIMESTAMP WITH TIME ZONE_6_0_0" id="8C0F85F7-C049-EAD2-A962-6435B80B6C0A">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT046</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="8C45EC71-AC2F-3F7F-543D-8FC1BA20A71D">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="91DF1FD4-ADA0-CF9C-D1A3-34B52F7C34BF">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_6_0_0" id="9915217F-90AB-9BB0-5D10-DFEAA45D1095">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT015</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="C19ADF1E-0642-0EAD-7BE4-E29E935C05F0">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="E8E1FC32-6054-6CD4-BCB4-D30AE983B7F2">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>25</dataTypeSize>
+<fileName>reels_cinema_datamodeler_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
