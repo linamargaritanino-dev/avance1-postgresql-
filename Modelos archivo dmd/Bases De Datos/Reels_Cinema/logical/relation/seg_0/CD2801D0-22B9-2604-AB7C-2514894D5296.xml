@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_funcion_pelicula" directorySegmentName="seg_0" id="CD2801D0-22B9-2604-AB7C-2514894D5296">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>B8F0EE9B-0BE0-55AA-3B4E-1DD9D3891C47</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<sourcePk>C9BFC86C-CB25-C3FB-9FE5-C6AEB003DA20</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42C0AEF9-5385-F3D3-3BCA-BA61FDAB87E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3683C773-FCD1-5993-A536-2741F597E9B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

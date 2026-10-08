@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3EEF156-8EFD-225A-15FE-274B21D71169" containerWithKeyObject="EDFF5126-A8E5-7124-3B03-C2A18E38309B" localFKIndex="180EB5A7-39C3-E51A-7A16-43EF29B70ED6" name="fk_venta_funcion">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>3DAAD755-5159-250D-FEA5-5DFEF353ADBB</importedID>
+<referredTableLongName>funcion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>915B47AD-31EC-225D-32F3-90478DF2D5FB</referredTableID>
+<keyObject>746366D8-FAF1-2C8B-021A-B765B1187617</keyObject>
+<referredKeyID>746366D8-FAF1-2C8B-021A-B765B1187617</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_funcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

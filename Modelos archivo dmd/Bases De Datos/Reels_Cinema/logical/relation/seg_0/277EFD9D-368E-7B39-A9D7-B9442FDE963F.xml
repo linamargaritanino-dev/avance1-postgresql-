@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_funcion_sala" directorySegmentName="seg_0" id="277EFD9D-368E-7B39-A9D7-B9442FDE963F">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>6787E81E-E1D2-7385-62C6-F47008625952</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<sourcePk>F73BB796-488B-F547-40B4-5B7C805D152F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E027B183-6879-2D35-3B27-4D892874BA06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3683C773-FCD1-5993-A536-2741F597E9B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

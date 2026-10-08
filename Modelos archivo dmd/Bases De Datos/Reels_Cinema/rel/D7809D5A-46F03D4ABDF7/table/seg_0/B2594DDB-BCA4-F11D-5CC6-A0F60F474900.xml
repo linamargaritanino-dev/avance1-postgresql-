@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2594DDB-BCA4-F11D-5CC6-A0F60F474900" name="pelicula_actores_directores">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>21341192-C2F7-D9B4-5F58-3392FCFBD584</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pelicula_id_pelicula" id="C0E08599-38C6-0F27-8E81-EFD8B21B68CC">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>10F0691D-5E62-D316-1576-52F9AA9D7E69</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37C86E26-9D53-034E-2D84-05AB7B1D4BE2" referredColumn="F4C5A790-EC4C-ECCC-3E1F-EFA0B46AFDF7"/>
+</associations>
+</Column>
+<Column name="actores_directores_id_artista" id="8F1AC755-0955-80AE-ADF7-4783D6FD2B08">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>D4772EA2-6B17-53B9-FE2F-2DCEC0091AF0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB12A4F2-2CF1-9B18-CFA6-35CF04410E64" referredColumn="FA2F8A6E-914D-50FF-C074-EEEB591601F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32C5E08F-DDE1-CF08-BAD0-BB6A982CC244" name="pk_pelicula_actores_directores">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>2A4829DC-A16F-6CB5-5C6E-DB7A918C539E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E08599-38C6-0F27-8E81-EFD8B21B68CC"/>
+<colUsage columnID="8F1AC755-0955-80AE-ADF7-4783D6FD2B08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D0746C8-5DBC-3847-E9A0-48E4D8BFAC12" name="fk_pelicula_artista_artista">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F1AC755-0955-80AE-ADF7-4783D6FD2B08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E84611DE-2C1F-DC98-BFCF-AAE7AAECE0D9" name="fk_pelicula_artista_pelicula">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E08599-38C6-0F27-8E81-EFD8B21B68CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

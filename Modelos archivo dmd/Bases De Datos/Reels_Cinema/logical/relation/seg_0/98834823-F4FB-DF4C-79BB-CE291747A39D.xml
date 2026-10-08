@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_venta_staff" directorySegmentName="seg_0" id="98834823-F4FB-DF4C-79BB-CE291747A39D">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:24:08 UTC</createdTime>
+<generatorID>18903754-B516-7695-E21E-6274057B89AA</generatorID>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<engineerTo>
+<item key="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" value="true"/>
+</engineerTo>
+<sourcePk>373392E0-CDAD-9DD2-31D3-AFED59A5CD9B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E3130F41-7631-FD3F-9095-B907C5214DED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61D0F681-9C6B-058F-30D0-589B916EF754</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

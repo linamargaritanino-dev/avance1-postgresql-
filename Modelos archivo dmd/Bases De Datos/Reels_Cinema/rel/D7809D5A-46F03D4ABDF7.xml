@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="D7809D5A-C4CE-0AAB-1042-46F03D4ABDF7" mainViewID="4F09C4AE-E32C-146B-055A-793F953C718E">
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 17:52:42 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>reels_cinema_datamodeler.sql</fileName>
+<pathName>C:\Users\compu\Downloads</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

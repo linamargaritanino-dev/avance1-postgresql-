@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A497B08C-2A40-E2FD-18AE-D7424C03E7EF" name="espectador">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>3F02B65D-375E-7109-97DB-2E6855088A6D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_espectador" id="645FFAEA-D39A-44C0-C54E-93DDE59B53F6">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>06B972F0-F853-5C0D-8974-ECEA6BABF753</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C19ADF1E-0642-0EAD-7BE4-E29E935C05F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="73FCCB03-CC3E-63A4-0CB5-39B6B098DAEB">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>6AC15F5C-E82E-A9E3-CBE7-9CA4BC1DDAB3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7A79666C-06D3-3350-E963-2DA3CD7983CB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="4095DAD1-DBB2-5D59-AB5A-E8D9A8EEAD00">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>756DBD2F-740B-001B-47A0-04FAC64A3B3E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3B267CCC-B764-5BA9-984F-8214D3B7E351</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="ECE572BA-A080-5630-137A-E25DC37B57C2">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>5C74B276-440E-0359-6F9C-5A66DA7594C2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E8E1FC32-6054-6CD4-BCB4-D30AE983B7F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_registro" id="1377D177-B3FF-48B5-4FCF-E4F9BE3B680F">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>1620839C-B6D4-307C-5563-006782DD3930</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>582938F0-FD4C-3532-B4CE-F1CDB38A5E7C</domain>
+<defaultValue>CURRENT_DATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="87B678AE-EDE7-0FA2-ED56-B123F6B0367D">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>FDEEFE50-A5D7-D129-0EF3-AB36EF23E99D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EB493D1-DE7D-D561-E7A2-E9676F557406</domain>
+<defaultValue>&apos;activo&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51CEFAB3-41D1-0C91-91EC-5DA4A4E0A2BF" name="espectador_PK">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>42D8CBC4-A24C-7CD9-726A-CB2E7C5A99D3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="645FFAEA-D39A-44C0-C54E-93DDE59B53F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_espectador_nombre" directorySegmentName="seg_0" id="DE0A2C45-5FAE-99C4-E019-930E0BD54C68">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>6829E015-65DA-8955-5B78-4CB1A4515A55</importedID>
+<rule><![CDATA[TRIM(nombre_completo) IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_espectador_correo" directorySegmentName="seg_0" id="6889E294-3B8D-804D-E247-4F38143929CD">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>69157205-041F-FC7F-173E-3CDBEF59808D</importedID>
+<rule><![CDATA[TRIM(correo) IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_espectador_telefono" directorySegmentName="seg_0" id="BF7B7ED9-E7F2-7FE8-2F85-26A916667F9A">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>5AF7EDD7-2372-1337-9307-1B7300F52B7F</importedID>
+<rule><![CDATA[TRIM(telefono) IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_espectador_estado" directorySegmentName="seg_0" id="41FDB808-A52C-C0A3-605F-16593B3D44A2">
+<sourceDDLFile>reels_cinema_datamodeler.sql</sourceDDLFile>
+<createdBy>marian</createdBy>
+<createdTime>2026-10-06 18:21:46 UTC</createdTime>
+<ownerDesignName>Reels_Cinema</ownerDesignName>
+<importedID>6B7A0260-CF6F-8384-6B86-F8CFAF1F8650</importedID>
+<rule><![CDATA[estado IN ('activo', 'inactivo')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
